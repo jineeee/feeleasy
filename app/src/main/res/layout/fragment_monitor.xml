@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MonitorFragment">
+
+    <Switch
+        android:id="@+id/switchOut"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="외출모드 "
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:layout_width="303dp"
+        android:layout_height="102dp"
+        android:layout_gravity="center"
+        android:text="전원을 끈지 ( )시간째"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="30dp"
+        android:layout_width="303dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center"
+        android:text="냉장고를 사용한지 ( )시간째"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="최근활동>" />
+
+    <ListView
+        android:layout_gravity="center"
+        android:layout_width="368dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+</LinearLayout>

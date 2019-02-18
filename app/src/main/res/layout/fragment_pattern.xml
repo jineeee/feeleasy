@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".PatternFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="일주일간 전등 사용 횟수"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary" />
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chartLight"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="일주일간 가구 사용 횟수"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"/>
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chartFur"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+</LinearLayout>
